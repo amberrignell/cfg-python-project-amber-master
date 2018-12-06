@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "email": "amber.rignell@gmail.com", 
+            "first_name": "Georgia", 
+            "surname": "Shaw"
+        }, 
+        {
+            "email": "bobbo@gmail.com", 
+            "first_name": "Oliver", 
+            "surname": "Bobzinga"
+        }, 
+        {
+            "email": "webb@gmail.com", 
+            "first_name": "Alex", 
+            "surname": "Webb"
+        }, 
+        {
+            "email": "bobbo@gmail.com", 
+            "first_name": "Amber", 
+            "surname": "Bobzinga"
+        }
+    ]
+}

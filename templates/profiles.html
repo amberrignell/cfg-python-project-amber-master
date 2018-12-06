@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+<script type="text/javascript" src="georgia.json"> </script>
+</head>
+
+<body>
+
+ <div class="topnav">
+  <a href="/">Home</a>
+  <a href="/userprofile/0">Profile</a>
+    <a href="#network">Network</a>
+  <a href="#contact">Contact</a>
+  </div>
+<div>
+  <h1>
+        List of Profiles
+    </h1>
+
+    <ol>
+        {% for user in users %}
+        <li><a href = "/userprofile/{{user_number}}">{{first_name}} {{surname}}</a> </li>
+        {% endfor %}
+    </ol>
+</div>
+
+
+
+
+
+</body>
+
+</html>
